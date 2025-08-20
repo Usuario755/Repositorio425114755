@@ -46,7 +46,7 @@ data_structure/
 ```
 
 ## Fechas de entrega de tareas
- * N/D
+ [* N/D](https://github.com/dda-ex/ED-2026-1?tab=readme-ov-file)
 
 ### Entrega de programas y actividades
 La entrega de los programas se realiza mediante git, por lo que deberán crear su propio repositorio. Favor de anotarlo en el siguiente documento: https://docs.google.com/spreadsheets/d/1oegFOw-DP5K7uelXgrO4_7Y4_BgwrmD1NpTVrO0Zbb8/edit?usp=sharing
