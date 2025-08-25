@@ -2,23 +2,23 @@
 #include <stdio.h>
 #include <string.h>
 
-void facTail(n,a){
+int facTail(int n, int a){
     
     
     if(n < 0){
         return 0;
     }
         
-    else if (n = 0){
+    else if (n == 0){
         return 1;
     }
         
-    else if (n = 1){
-        return 1;
+    else if (n == 1){
+        return a;
     }
         
     else {
-        return n*fact(n-1);
+        return facTail(n-1,n*a);
     }
         
 }
@@ -30,6 +30,9 @@ int main (int argc, char *argv[]){
     
     for(i=0;i<strlen(argv[1]);i++)
         fprintf(stdout,"num[%d]=%c \n", i, num[i]);
-    facTail(n,a);
+    
+   
+    printf("%d", facTail(5,1));
+    
     return 0;
 }
