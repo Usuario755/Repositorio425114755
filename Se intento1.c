@@ -26,7 +26,7 @@ void facTail(n,a){
 int main (int argc, char *argv[]){
     int i,n,a;
     char *num =argv[1];
-    printf(stdout, "arg[1] = %s \n", argv[1]);
+    fprintf(stdout, "arg[1] = %s \n", argv[1]);
     
     for(i=0;i<strlen(argv[1]);i++)
         fprintf(stdout,"num[%d]=%c \n", i, num[i]);
