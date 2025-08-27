@@ -23,16 +23,21 @@ int facTail(int n, int a){
         
 }
 
+
 int main (int argc, char *argv[]){
-    int i,n,a;
+    
     char *num =argv[1];
     fprintf(stdout, "arg[1] = %s \n", argv[1]);
     
-    for(i=0;i<strlen(argv[1]);i++)
+    for(int i=0;i<strlen(argv[1]);i++)
         fprintf(stdout,"num[%d]=%c \n", i, num[i]);
     
-   
-    printf("%d", facTail(5,1));
+       int n = atoi(argv[1]); // convierte el primer argumento a entero
+    int a = atoi(argv[2]); // convierte el segundo argumento a entero
+
+    printf("Calculando facTail(%d, %d)...\n", n, a);
+    
+    printf("Resultado: %d\n", facTail(n, a));
     
     return 0;
 }
