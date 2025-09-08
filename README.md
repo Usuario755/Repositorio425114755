@@ -1,5 +1,6 @@
 # ED-2026-1
 Repositorio de la materia de Estructura de Datos 2026-1 1311
+https://github.com/dda-ex/ED-2026-1.git
 
 ## Acerca de
 En este respositorio se publicarán las tareas y actividades que tendrán que desarrollar para la clase, así como fragmentos de pseudo código o código en C. Es importante que lo revises de forma constante.
